@@ -1,0 +1,148 @@
+
+Pizza Order Form
+Khadeem Bernard
+•
+Yesterday
+Projects
+•
+65 points
+Due Today
+
+Pizza Form Project
+Google Docs
+Class comments
+Your work
+Assigned
+
+pizza moemnt.html
+HTML
+Private comments
+Assignment details
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Tyler Allred">
+    <meta name="description" content="A pizza shop that is midly disturbing.">
+    <meta property="og:description" content="A pizza shop that is midly disturbing.">
+    <meta property="og:title" content="title">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="un.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uncanny Pizza</title>
+</head>
+
+
+<!-- header and login using user input -->
+<body>
+    <h1>Welcome to Uncanny Pizza!</h1>
+    <img src="up.png" alt="the logo" height="300" width="600">
+<p>Required fields are followed by  <abbr title="Required">*</abbr></p>
+<fieldset>
+    <legend>User Information</legend>
+    <p>
+        User Name:<abbr title="Required">*</abbr><input> 
+    <br>
+        Password:<abbr title="Required">*</abbr><input>
+    </p>
+</fieldset>
+<br>
+
+<!-- drink selection using radio buttons -->
+<fieldset>
+    <legend>Drink Selection <abbr title="Required">*</abbr> </legend>
+    <p>
+        <input type="radio" id="coke" name="coke" value="coke">
+        <label for="coke">Coke</label><br>
+        <input type="radio" id="sprite" name="sprite" value="sprite">
+        <label for="sprite">Sprite</label><br>
+        <input type="radio" id="drpepper" name="drpepper" value="drpepper">
+        <label for="drpepper">Dr. Pepper</label><br>
+        <input type="radio" id="Water" name="Water" value="Water">
+        <label for="Water">Water</label><br>
+        <input type="radio" id="grapesoda" name="grapesoda" value="grapesoda">
+        <label for="grapesoda">Grape Soda</label><br>
+    
+    </p>
+</fieldset>
+<br>
+
+
+
+<!-- type of pizza dough using checkbox -->
+<fieldset>
+
+    <legend>Dough Type <abbr title="Required">*</abbr> </legend>
+<input type="checkbox" id="pizzabasetype" name="whiteflour" value="whiteflour">
+    <label for="whiteflour"> White Flour</label><br>
+<input type="checkbox" id="brownflour" name="brownflour" value="brownflour">
+    <label for="brownflour">Brown Flour</label><br>
+<input type="checkbox" id="glutenfree" name="glutenfree" value="glutenfree">
+    <label for="glutenfree">Gluten Free</label><br>
+</fieldset>
+
+<br>
+
+<!-- sauce type using checkboxes -->
+<fieldset>
+    <legend>Sauce Type <abbr title="Required">*</abbr> </legend>
+    <input type="checkbox" id="redsauce" name="redsauce" value="redsauce">
+        <label for="redsauce">Red Sauce</label><br>
+    <input type="checkbox" id="whitesauce" name="whitesauce" value="whitesauce">
+        <label for="whitesauce">White Sauce</label><br>
+</fieldset>
+
+<br>
+
+<!-- cheese type using checkboxes -->
+<fieldset>
+    <legend>Cheese Type <abbr title="Required">*</abbr> </legend>
+    <input type="checkbox" id="motz" name="motz" value="motz">
+        <label for="motz">Motzeralla</label><br>
+    <input type="checkbox" id="none" name="none" value="none">
+        <label for="none">None</label><br>
+</fieldset>
+<br>
+<!-- toppings using checkboxes -->
+
+<fieldset>
+    <legend>Toppings <abbr title="Required">*</abbr> </legend>
+    <input type="checkbox" id="bolive" name="bolive" value="bolive">
+        <label for="bolive">Black Olive</label><br>
+    <input type="checkbox" id="saus" name="saus" value="saus">
+        <label for="saus">Sausage</label><br>
+    <input type="checkbox" id="pep" name="pep" value="pep">
+        <label for="pep">Pepperoni</label><br>
+    <input type="checkbox" id="plch" name="plch" value="plch">
+        <label for="plch">Plain Cheese</label><br>
+    <input type="checkbox" id="chi" name="chi" value="chi">
+        <label for="chi">Chicken</label><br>
+</fieldset>
+<br>
+
+<!-- special request using input box -->
+<fieldset>
+<legend>Special Request</legend>
+<input>
+</fieldset>
+
+<br>
+
+<!-- Payment Options -->
+<fieldset>
+Card Number:<abbr title="Required">*</abbr><input>
+<form action="#">
+<label for="card-type"></label>
+<select name="card-type" id="cardtype">
+<option value="visa">Visa</option>
+<option value="mastercard">MasterCard</option>
+<option value="monopolymoney">Monopoly Money</option>
+Expiration Date:<abbr title="Required">*</abbr> <input type="month" id="start" name="start"
+min="" value="">
+<br>
+<button>Validate the payment</button>
+</fieldset>
+
+</form>
+</p>
+</body>
+</html>
